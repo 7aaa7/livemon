@@ -4,7 +4,7 @@ CXXFLAGS = -Wall
 
 
 ALL:
-	$(CXX) $(CXXFLAGS) proc_stat.c 
+	$(CXX) $(CXXFLAGS) src/proc_stat.c 
 clean: 
 	rm a.out
 
